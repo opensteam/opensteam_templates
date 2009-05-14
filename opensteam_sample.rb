@@ -38,7 +38,7 @@ plugin 'acts_as_list',
 
 
 ## Generate Authentication ##
-generate("authenticated", "User Session --aasm")
+generate("authenticated", "User Session --aasm --rspec")
 generate("roles", "UserRole User")
   
 
